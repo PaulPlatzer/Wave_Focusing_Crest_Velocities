@@ -67,7 +67,8 @@ nend=Nt-3
 #### LOADING THE DATA
 
 ## Call all the files
-fnames = glob('Fig5_data/GWP_k0Lf10_phi*.npz')
+fnames = glob('Fig5_data/GWP_k0Lf10_phi*.npz') # to open the files created by the user
+#fnames = glob('Fig5_article_data/GWP_2D_Lk10_phi*.npz') # to open the files used in the article
 fnames.sort()
 Nfi=len(fnames)
 
