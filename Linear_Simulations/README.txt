@@ -54,7 +54,10 @@ a given number of times.
 --------------
 'Fig5_plot_k0Lf2'; 'Fig5_plot_k0Lf5'; 'Fig5_plot_k0Lf10'
 -Each code loads the files that were previously generated using 'Fig5_data.py'
-with related values of 'width_choice'.
+with related values of 'width_choice'. To plot the data that was actually used
+to produce the fifth figure of the article, just comment/uncomment
+two lines in the '## Call all the files' subsection (around line 70) of those
+python scripts.
 -It runs very fast on a laptop.
 -For each value of 'width_choice', the three corresponding plots for the fifth
 figure of the article are drawn.
